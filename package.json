@@ -1,0 +1,17 @@
+{
+  "name": "bicubic-interpolation",
+  "version": "0.1.0",
+  "description": "Interpolates values on a two-dimensional regular grid using bicubic convolution with configurable boundary handling.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
