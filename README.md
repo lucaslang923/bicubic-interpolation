@@ -52,3 +52,10 @@ interior under clamp boundary handling.
 - **Non-rectangular grids throw.** Every row must have the same length.
 - **1×1 grids.** All three boundary strategies collapse to returning the single
   value, so every sample returns that value.
+
+## Design notes
+
+The window stores values eagerly rather than keeping running aggregates. Running
+sums drift with floating point over long streams, and recomputing from a small
+buffer is cheap enough that the drift is not worth the speed.
+
