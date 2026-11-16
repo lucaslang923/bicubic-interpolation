@@ -1,6 +1,6 @@
 {
   "name": "bicubic-interpolation",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Interpolates values on a two-dimensional regular grid using bicubic convolution with configurable boundary handling.",
   "type": "module",
   "main": "src/index.js",
